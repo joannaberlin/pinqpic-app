@@ -20,6 +20,14 @@ window.addEventListener("scroll", function () {
 	}
 });
 
+//*** toggle navbar ***
+const navToggle = document.querySelector(".nav-toggle");
+const links = document.querySelector(".links");
+
+navToggle.addEventListener("click", function () {
+	links.classList.toggle("show-links");
+});
+
 //*** home gallery ***
 const img = document.getElementById("image");
 const title = document.getElementById("title");
