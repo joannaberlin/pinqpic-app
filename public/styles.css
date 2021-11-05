@@ -181,8 +181,8 @@ footer p {
 }
 @media screen and (min-width: 800px) {
 	#nav {
-		width: 90vw;
-		height: 11vh;
+		/* width: 90vw;
+		height: 11vh; */
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -192,7 +192,6 @@ footer p {
 	}
 	.links {
 		display: flex;
-		margin-left: 60vw;
 		font-size: 2rem;
 		height: auto;
 	}
