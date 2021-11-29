@@ -193,7 +193,6 @@ prevBtnShapes.addEventListener("click", function () {
 });
 
 closeBtnShapes.addEventListener("click", function () {
-	// galleryWork.classList.add("close-gallery");
 	galleryShapes.classList.remove("show-gallery");
 });
 
