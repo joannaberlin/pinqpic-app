@@ -4,8 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "netlify-lambda serve functions",
-		"build": "netlify-lambda build functions"
+		"start": "node app.js"
 	},
 	"repository": {
 		"type": "git",
