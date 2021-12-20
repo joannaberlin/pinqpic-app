@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "node app.js"
+		"start": "netlify-lambda serve functions",
+		"build": "netlify-lambda build functions"
 	},
 	"repository": {
 		"type": "git",
@@ -18,6 +19,7 @@
 	},
 	"homepage": "https://github.com/joannaberlin/pinqpic-app#readme",
 	"dependencies": {
-		"express": "^4.17.1"
+		"express": "^4.17.1",
+		"lambda": "^0.10.3"
 	}
 }
